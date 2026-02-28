@@ -1,32 +1,292 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-02-28 04:47:16 (北京时间)
-#  节点总数   : 7 个优质节点
-#  平均质量分 : 12.0/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
+#  更新时间   : 2026-03-01 00:44:00 (北京时间)
+#  节点总数   : 24 个优质节点
+#  平均质量分 : 13.5/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:24
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1 [⚡可用]
-  type: trojan
-  server: www.speedtest.net
+- name: 🇯🇵 日本-1 [⚡可用]
+  type: vless
+  server: 103.115.18.22
+  port: 8443
+  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: ign.com
+  region_info:
+    name: 日本
+    code: JP
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 20
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-1 [⚡可用]
+  type: vmess
+  server: 148.135.33.227
   port: 443
-  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
-  sni: red-dream-2d6c.xepis84786.workers.dev
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-2 [⚡可用]
+  type: vless
+  server: 141.101.90.96
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- type: trojan
+  name: 🇺🇸 美国-3 [⚡可用]
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-4 [⚡可用]
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: 98e80481-91a3-4d1a-8aa1-99f8b169bab4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: ''
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-1 [⚡可用]
+  type: vmess
+  server: 57.129.64.199
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: pelang.org
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-2 [⚡可用]
+  type: trojan
+  server: 54.38.156.210
+  port: 443
+  password: b8841c50-c3ad-11ee-9be0-1239d0255272
+  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
   skip-cert-verify: false
   udp: true
   alpn: []
   tls: true
   region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 35
+    name: 德国
+    code: DE
+  tcp_delay: 6
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇬🇧 英国-1 [⚡可用]
+  type: vless
+  server: 46.101.82.35
+  port: 443
+  uuid: 7e0ac0af-282a-42c4-9b16-a7144f9769a8
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /sbaakhws
+  sni: io.ozone.ru
+  ws-opts:
+    path: /sbaakhws
+    headers: {}
+  region_info:
+    name: 英国
+    code: GB
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-3 [⚡可用]
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇬🇧 英国-2 [⚡可用]
+  type: vless
+  server: 193.142.59.231
+  port: 8443
+  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: ign.com
+  region_info:
+    name: 英国
+    code: GB
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-4 [⚡可用]
+  server: 79.127.200.169
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇫🇷 法国-1 [⚡可用]
+  type: vmess
+  server: 146.59.85.226
+  port: 443
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: pelang.org
+  client-fingerprint: ''
+  tfo: false
+  fast-open: false
+  servername: pelang.org
+  region_info:
+    name: 法国
+    code: FR
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇷🇺 俄罗斯-1 [⚡可用]
+  type: trojan
+  server: 176.124.223.40
+  port: 2053
+  password: Aimer
+  sni: ngepx.ambercc.filegear-sg.me
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 俄罗斯
+    code: RU
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 13
+  quality_tag: ⚡可用
+- name: 🇦🇩 安道尔-1 [⚡可用]
+  type: vless
+  server: www.speedtest.net
+  port: 2082
+  uuid: 21a4f9b4-8b7c-440c-8c9a-8e61d001ad80
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  sni: ''
+  ws-opts:
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 7
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
+- name: 🇺🇳 未知-1 [⚡可用]
   type: vless
   server: africa.visa.com
   port: 8880
@@ -45,81 +305,110 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 40
+  tcp_delay: 14
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2 [⚡可用]
+  type: vless
+  server: 162.159.44.204
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-3 [⚡可用]
-  type: vless
+  type: trojan
   server: www.speedtest.net
   port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
+  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
+  sni: red-dream-2d6c.xepis84786.workers.dev
   skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
-  ws-opts:
-    path: /
-    headers: {}
+  udp: true
+  alpn: []
+  tls: true
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 35
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇦🇩 安道尔-1 [⚡可用]
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 35
+  tcp_delay: 7
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-4 [⚡可用]
+  type: trojan
+  server: 185.114.72.31
+  port: 2053
+  password: fa115af5-0647-4549-acd9-5166695ea2de
+  sni: joss.gpj.web.id
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇰🇮 基里巴斯-1 [⚡可用]
   type: vless
-  server: zoom.seaseus.pp.ua
+  server: 172.67.74.133
   port: 443
-  uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
+  uuid: 0fbf4f81-2598-4b6a-a623-0ead4cb9efa8
   encryption: none
   flow: ''
   tls: true
   skip-cert-verify: false
   network: ws
-  host: ''
-  path: /seaseus
-  sni: zoom.seaseus.pp.ua
+  host: privasi.turah.my.id
+  path: /Free-CF-Proxy-AD192.3.113.4-19318?ed=2048@v2ray_configs_pools
+  sni: privasi.turah.my.id
   ws-opts:
-    path: /seaseus
-    headers: {}
+    path: /Free-CF-Proxy-AD192.3.113.4-19318?ed=2048@v2ray_configs_pools
+    headers:
+      Host: privasi.turah.my.id
   region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 134
+    name: 基里巴斯
+    code: KI
+  tcp_delay: 4
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-5 [⚡可用]
+  type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 7
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-6 [⚡可用]
   type: vless
   server: cdncdncdn.aikunapp.com
   port: 443
@@ -139,24 +428,77 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 119
+  tcp_delay: 84
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-6 [⚡可用]
-  type: trojan
-  server: store.ubi.com
+- name: 🇺🇳 未知-7 [⚡可用]
+  type: vless
+  server: www.speedtest.net
   port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
   tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 46
+  tcp_delay: 6
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-8 [⚡可用]
+  type: vless
+  server: zoom.seaseus.pp.ua
+  port: 443
+  uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /seaseus
+  sni: zoom.seaseus.pp.ua
+  ws-opts:
+    path: /seaseus
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 110
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-9 [⚡可用]
+  type: vmess
+  server: 57.129.25.22
+  port: 443
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  client-fingerprint: ''
+  tfo: false
+  fast-open: false
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -172,10 +514,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-02-28 04:47:16'
-total_nodes: 7
-average_quality: 12.0
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
+update_time: '2026-03-01 00:44:00'
+total_nodes: 24
+average_quality: 13.5
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:24
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
