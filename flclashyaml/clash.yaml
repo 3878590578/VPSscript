@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-03 04:52:38 (北京时间)
-#  节点总数   : 20 个节点
+#  更新时间   : 2026-03-04 01:08:28 (北京时间)
+#  节点总数   : 17 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -27,7 +27,7 @@ proxies:
     name: 美国
     code: US
   tcp_delay: 3
-  clash_delay: 45
+  clash_delay: 47
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇬🇧 英国-1
@@ -49,8 +49,25 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 4
+  tcp_delay: 3
   clash_delay: 35
+- name: 🇩🇪 德国-1
+  type: trojan
+  server: 54.38.156.210
+  port: 443
+  password: b8841c50-c3ad-11ee-9be0-1239d0255272
+  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 2
+  clash_delay: 28
+  quality_score: 14
+  quality_tag: ⚡可用
 - name: 🇺🇸 美国-2
   type: vless
   server: 141.101.90.96
@@ -70,23 +87,27 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 3
-  clash_delay: 36
-- name: 🇩🇪 德国-1
-  type: trojan
-  server: 54.38.156.210
+  tcp_delay: 10
+  clash_delay: 29
+- name: 🇩🇪 德国-2
+  type: vmess
+  server: 57.129.64.199
   port: 443
-  password: b8841c50-c3ad-11ee-9be0-1239d0255272
-  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  skip-cert-verify: false
-  udp: true
-  alpn: []
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  network: ws
   tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: pelang.org
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 6
-  clash_delay: 34
+  tcp_delay: 2
+  clash_delay: 28
   quality_score: 14
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-1
@@ -109,11 +130,48 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 4
-  clash_delay: 34
-- name: 🇬🇧 英国-2
+  tcp_delay: 3
+  clash_delay: 25
+- type: trojan
+  name: 🇺🇸 美国-3
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 5
+  clash_delay: 27
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2
   type: vless
-  server: 193.142.59.231
+  server: 162.159.44.204
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 5
+  clash_delay: 23
+- name: 🇯🇵 日本-1
+  type: vless
+  server: 103.115.18.22
   port: 8443
   uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
   encryption: none
@@ -125,31 +183,10 @@ proxies:
   path: ''
   sni: ign.com
   region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 5
-  clash_delay: 31
-- name: 🇩🇪 德国-2
-  type: vmess
-  server: 57.129.64.199
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: linkvws
-    headers:
-      Host: pelang.org
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 3
-  clash_delay: 34
-  quality_score: 14
-  quality_tag: ⚡可用
+    name: 日本
+    code: JP
+  tcp_delay: 4
+  clash_delay: 22
 - name: 🇩🇪 德国-3
   type: vless
   server: 178.17.51.244
@@ -166,8 +203,26 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 4
-  clash_delay: 30
+  tcp_delay: 3
+  clash_delay: 28
+- name: 🇬🇧 英国-2
+  type: vless
+  server: 193.142.59.231
+  port: 8443
+  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: ign.com
+  region_info:
+    name: 英国
+    code: GB
+  tcp_delay: 3
+  clash_delay: 31
 - name: 🇫🇷 法国-1
   type: vmess
   server: 146.59.85.226
@@ -188,56 +243,8 @@ proxies:
   region_info:
     name: 法国
     code: FR
-  tcp_delay: 3
-  clash_delay: 30
-- name: 🇦🇩 安道尔-1
-  type: trojan
-  server: 172.67.165.204
-  port: 443
-  password: your_password
-  sni: aws-aus-sydney-1.f1cflinea.com
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 3
-  clash_delay: 41
-- name: 🇯🇵 日本-1
-  type: vless
-  server: 103.115.18.22
-  port: 8443
-  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: ign.com
-  region_info:
-    name: 日本
-    code: JP
-  tcp_delay: 6
-  clash_delay: 22
-- type: trojan
-  name: 🇺🇸 美国-3
-  server: 64.94.95.118
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  network: tcp
-  skip-cert-verify: true
-  tls: true
-  region_info:
-    name: 美国
-    code: US
   tcp_delay: 4
-  clash_delay: 28
-  quality_score: 15
-  quality_tag: ⚡可用
+  clash_delay: 21
 - name: 🇺🇸 美国-4
   type: vmess
   server: 82.198.246.97
@@ -252,29 +259,8 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 5
-  clash_delay: 42
-- name: 🇺🇳 未知-2
-  type: vless
-  server: 104.26.6.89
-  port: 80
-  uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /?ed
-  sni: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
-  ws-opts:
-    path: /?ed
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 5
-  clash_delay: 38
+  tcp_delay: 6
+  clash_delay: 47
 - name: 🇺🇳 未知-3
   type: vless
   server: cdncdncdn.aikunapp.com
@@ -295,29 +281,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 30
-  clash_delay: 54
-- name: 🇺🇸 美国-5
-  type: vless
-  server: www.shopify.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 13
-  clash_delay: 49
+  tcp_delay: 81
+  clash_delay: 20
 - name: 🇺🇳 未知-4
   type: vless
   server: www.speedtest.net
@@ -337,26 +302,29 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 14
-  clash_delay: 45
-- name: 🇦🇩 安道尔-2
+  tcp_delay: 8
+  clash_delay: 49
+- name: 🇺🇸 美国-5
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 062613de-b8ec-4b14-eec8-f2a8ebd7fdff
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   encryption: none
   flow: ''
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: xhttp
-  host: joKer.mEmBerGolaBi.IR
-  path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
-  sni: joker.membergolabi.IR
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
   region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 14
-  clash_delay: 20
+    name: 美国
+    code: US
+  tcp_delay: 7
+  clash_delay: 26
 - name: 🇺🇳 未知-5
   type: vless
   server: zoom.seaseus.pp.ua
@@ -378,21 +346,6 @@ proxies:
     code: UN
   tcp_delay: 122
   clash_delay: 21
-- name: 🇺🇳 未知-6
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 62
-  clash_delay: 20
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
