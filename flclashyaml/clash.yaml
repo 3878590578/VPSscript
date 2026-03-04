@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-05 01:04:06 (北京时间)
+#  更新时间   : 2026-03-05 04:50:07 (北京时间)
 #  节点总数   : 19 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
@@ -9,71 +9,6 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1
-  type: vless
-  server: 104.16.31.105
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: bb-67r.pages.dev
-  path: /?ed=2560
-  sni: bb-67r.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: bb-67r.pages.dev
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 6
-  clash_delay: 60
-- name: 🇺🇳 未知-2
-  type: vless
-  server: 162.159.44.204
-  port: 443
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: kivi.mrconfigur.site
-  path: /
-  sni: kivi.mrconfigur.site
-  ws-opts:
-    path: /
-    headers:
-      Host: kivi.mrconfigur.site
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 6
-  clash_delay: 50
-- name: 🇬🇧 英国-1
-  type: vless
-  server: 46.101.82.35
-  port: 443
-  uuid: 7e0ac0af-282a-42c4-9b16-a7144f9769a8
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /sbaakhws
-  sni: io.ozone.ru
-  ws-opts:
-    path: /sbaakhws
-    headers: {}
-  region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 6
-  clash_delay: 35
 - name: 🇺🇸 美国-1
   type: vless
   server: 141.101.90.96
@@ -93,66 +28,9 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
+  tcp_delay: 4
   clash_delay: 36
 - name: 🇩🇪 德国-1
-  type: vmess
-  server: 57.129.64.199
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: linkvws
-    headers:
-      Host: pelang.org
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 7
-  clash_delay: 32
-  quality_score: 14
-  quality_tag: ⚡可用
-- name: 🇬🇧 英国-2
-  type: vless
-  server: 193.142.59.231
-  port: 8443
-  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: ign.com
-  region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 6
-  clash_delay: 30
-- name: 🇩🇪 德国-2
-  type: vless
-  server: 178.17.51.244
-  port: 443
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: firebase.com
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 6
-  clash_delay: 29
-- name: 🇩🇪 德国-3
   type: trojan
   server: 54.38.156.210
   port: 443
@@ -165,33 +43,32 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 9
-  clash_delay: 32
+  tcp_delay: 7
+  clash_delay: 34
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇫🇷 法国-1
-  type: vmess
-  server: 146.59.85.226
+- name: 🇬🇧 英国-1
+  type: vless
+  server: 46.101.82.35
   port: 443
-  cipher: auto
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
+  uuid: 7e0ac0af-282a-42c4-9b16-a7144f9769a8
+  encryption: none
+  flow: ''
   tls: true
+  skip-cert-verify: false
   network: ws
+  host: ''
+  path: /sbaakhws
+  sni: io.ozone.ru
   ws-opts:
-    path: /linkvws
-    headers:
-      Host: pelang.org
-  client-fingerprint: ''
-  tfo: false
-  fast-open: false
-  servername: pelang.org
+    path: /sbaakhws
+    headers: {}
   region_info:
-    name: 法国
-    code: FR
-  tcp_delay: 8
-  clash_delay: 27
-- name: 🇺🇳 未知-3
+    name: 英国
+    code: GB
+  tcp_delay: 3
+  clash_delay: 36
+- name: 🇺🇳 未知-1
   type: vmess
   server: 57.129.25.22
   port: 443
@@ -212,7 +89,122 @@ proxies:
     name: 未知
     code: UN
   tcp_delay: 7
-  clash_delay: 33
+  clash_delay: 34
+- name: 🇫🇷 法国-1
+  type: vmess
+  server: 146.59.85.226
+  port: 443
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: pelang.org
+  client-fingerprint: ''
+  tfo: false
+  fast-open: false
+  servername: pelang.org
+  region_info:
+    name: 法国
+    code: FR
+  tcp_delay: 4
+  clash_delay: 30
+- name: 🇩🇪 德国-2
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+  clash_delay: 30
+- name: 🇩🇪 德国-3
+  type: vmess
+  server: 57.129.64.199
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: pelang.org
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 4
+  clash_delay: 34
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇬🇧 英国-2
+  type: vless
+  server: 193.142.59.231
+  port: 8443
+  uuid: b29e92ab-ec3d-4776-88ed-aa8c804aa961
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: ign.com
+  region_info:
+    name: 英国
+    code: GB
+  tcp_delay: 3
+  clash_delay: 31
+- type: trojan
+  name: 🇺🇸 美国-2
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 4
+  clash_delay: 27
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2
+  type: vless
+  server: 104.26.6.89
+  port: 80
+  uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /?ed
+  sni: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
+  ws-opts:
+    path: /?ed
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 9
+  clash_delay: 31
 - name: 🇯🇵 日本-1
   type: vless
   server: 103.115.18.22
@@ -229,9 +221,21 @@ proxies:
   region_info:
     name: 日本
     code: JP
-  tcp_delay: 6
+  tcp_delay: 4
   clash_delay: 22
-- name: 🇺🇸 美国-2
+- name: 🇦🇩 安道尔-1
+  type: ss
+  server: 141.98.101.178
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 3
+  clash_delay: 21
+- name: 🇺🇸 美国-3
   type: vmess
   server: 148.135.33.227
   port: 443
@@ -248,11 +252,32 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
-  clash_delay: 39
+  tcp_delay: 9
+  clash_delay: 42
   quality_score: 15
   quality_tag: ⚡可用
-- name: 🇺🇸 美国-3
+- name: 🇺🇸 美国-4
+  type: vless
+  server: 173.245.59.217
+  port: 443
+  uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /yhowcws
+  sni: azizoarjmand.info
+  ws-opts:
+    path: /yhowcws
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 7
+  clash_delay: 40
+- name: 🇺🇸 美国-5
   type: vmess
   server: 82.198.246.97
   port: 180
@@ -266,25 +291,29 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 6
-  clash_delay: 39
-- name: 🇷🇺 俄罗斯-1
-  type: trojan
-  server: 176.124.223.40
-  port: 2053
-  password: Aimer
-  sni: ngepx.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 俄罗斯
-    code: RU
   tcp_delay: 7
-  clash_delay: 41
-  quality_score: 13
-  quality_tag: ⚡可用
+  clash_delay: 40
+- name: 🇺🇳 未知-3
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 13
+  clash_delay: 44
 - name: 🇺🇳 未知-4
   type: trojan
   server: store.ubi.com
@@ -298,7 +327,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 35
+  tcp_delay: 45
   clash_delay: 20
 - name: 🇺🇳 未知-5
   type: vless
@@ -320,52 +349,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 35
-  clash_delay: 54
-- name: 🇮🇳 印度-1
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: telegram-id-Arfilter
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: w.arfilter2.blog
-  path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-  sni: w.arfilter2.blog
-  ws-opts:
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-    headers:
-      Host: w.arfilter2.blog
-  region_info:
-    name: 印度
-    code: IN
-  tcp_delay: 15
-  clash_delay: 38
+  tcp_delay: 32
+  clash_delay: 57
 - name: 🇺🇳 未知-6
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 15
-  clash_delay: 30
-- name: 🇺🇳 未知-7
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -384,7 +370,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 112
+  tcp_delay: 109
   clash_delay: 21
 last_message_ids:
   '@fqDINYUE': 4877
