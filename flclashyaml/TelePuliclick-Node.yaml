@@ -1,9 +1,9 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-05 04:50:07 (北京时间)
-#  节点总数   : 19 个优质节点
-#  平均质量分 : 13.8/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:19
+#  更新时间   : 2026-03-06 02:23:27 (北京时间)
+#  节点总数   : 17 个优质节点
+#  平均质量分 : 14.2/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:17
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
@@ -25,11 +25,34 @@ proxies:
   region_info:
     name: 日本
     code: JP
-  tcp_delay: 4
+  tcp_delay: 2
   clash_delay: 2026
   quality_score: 20
   quality_tag: ⚡可用
 - name: 🇺🇸 美国-1 [⚡可用]
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 11
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-2 [⚡可用]
   type: vless
   server: 141.101.90.96
   port: 2053
@@ -48,34 +71,28 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 4
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇸 美国-2 [⚡可用]
-  type: vless
-  server: 173.245.59.217
-  port: 443
-  uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /yhowcws
-  sni: azizoarjmand.info
-  ws-opts:
-    path: /yhowcws
-    headers: {}
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 7
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇺🇸 美国-3 [⚡可用]
+  type: trojan
+  server: 172.67.157.220
+  port: 443
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  sni: 6666YHjU.777159.xYz
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 6
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-4 [⚡可用]
   type: vmess
   server: 148.135.33.227
   port: 443
@@ -92,22 +109,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 9
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- type: trojan
-  name: 🇺🇸 美国-4 [⚡可用]
-  server: 64.94.95.118
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  network: tcp
-  skip-cert-verify: true
-  tls: true
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 4
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -125,7 +127,22 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
+- type: trojan
+  name: 🇺🇸 美国-6 [⚡可用]
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 2
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -152,44 +169,6 @@ proxies:
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇩🇪 德国-1 [⚡可用]
-  type: trojan
-  server: 54.38.156.210
-  port: 443
-  password: b8841c50-c3ad-11ee-9be0-1239d0255272
-  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 7
-  clash_delay: 2026
-  quality_score: 14
-  quality_tag: ⚡可用
-- name: 🇩🇪 德国-2 [⚡可用]
-  type: vmess
-  server: 57.129.64.199
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: linkvws
-    headers:
-      Host: pelang.org
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 4
-  clash_delay: 2026
-  quality_score: 14
-  quality_tag: ⚡可用
 - name: 🇫🇷 法国-1 [⚡可用]
   type: vmess
   server: 146.59.85.226
@@ -210,11 +189,11 @@ proxies:
   region_info:
     name: 法国
     code: FR
-  tcp_delay: 4
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇩🇪 德国-3 [⚡可用]
+- name: 🇩🇪 德国-1 [⚡可用]
   type: vless
   server: 178.17.51.244
   port: 443
@@ -230,7 +209,28 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 3
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-2 [⚡可用]
+  type: vmess
+  server: 57.129.64.199
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: pelang.org
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 8
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -250,34 +250,35 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 3
+  tcp_delay: 8
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-1 [⚡可用]
+- name: 🇮🇳 印度-1 [⚡可用]
   type: vless
-  server: 104.26.6.89
-  port: 80
-  uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
+  server: www.speedtest.net
+  port: 443
+  uuid: telegram-id-Arfilter
   encryption: none
   flow: ''
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
-  host: ''
-  path: /?ed
-  sni: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
+  host: w.arfilter2.blog
+  path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
+  sni: w.arfilter2.blog
   ws-opts:
-    path: /?ed
-    headers: {}
+    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
+    headers:
+      Host: w.arfilter2.blog
   region_info:
-    name: 未知
-    code: UN
+    name: 印度
+    code: IN
   tcp_delay: 9
   clash_delay: 2026
-  quality_score: 12
+  quality_score: 13
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
+- name: 🇺🇳 未知-1 [⚡可用]
   type: vmess
   server: 57.129.25.22
   port: 443
@@ -297,28 +298,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-3 [⚡可用]
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 45
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-4 [⚡可用]
+- name: 🇺🇳 未知-2 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -337,11 +321,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 13
+  tcp_delay: 10
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-5 [⚡可用]
+- name: 🇺🇳 未知-3 [⚡可用]
   type: vless
   server: cdncdncdn.aikunapp.com
   port: 443
@@ -361,25 +345,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 32
+  tcp_delay: 128
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇦🇩 安道尔-1 [⚡可用]
-  type: ss
-  server: 141.98.101.178
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 3
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-6 [⚡可用]
+- name: 🇺🇳 未知-4 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -398,7 +368,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 109
+  tcp_delay: 125
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -414,10 +384,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-03-05 04:50:07'
-total_nodes: 19
-average_quality: 13.8
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:19
+update_time: '2026-03-06 02:23:27'
+total_nodes: 17
+average_quality: 14.2
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:17
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
