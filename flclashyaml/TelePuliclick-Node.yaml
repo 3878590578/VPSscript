@@ -1,9 +1,9 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-10 04:52:12 (北京时间)
-#  节点总数   : 13 个优质节点
-#  平均质量分 : 14.2/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:13
+#  更新时间   : 2026-03-11 01:09:17 (北京时间)
+#  节点总数   : 14 个优质节点
+#  平均质量分 : 13.9/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:14
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
@@ -48,7 +48,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 11
+  tcp_delay: 13
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -69,7 +69,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 4
+  tcp_delay: 5
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -84,7 +84,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 5
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -106,6 +106,26 @@ proxies:
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
+- name: 🇩🇪 德国-1 [⚡可用]
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
 - name: 🇬🇧 英国-1 [⚡可用]
   type: vless
   server: 193.142.59.231
@@ -122,29 +142,6 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 3
-  clash_delay: 2026
-  quality_score: 14
-  quality_tag: ⚡可用
-- name: 🇩🇪 德国-1 [⚡可用]
-  type: vless
-  server: 212.192.31.146
-  port: 443
-  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /panika
-  sni: ''
-  ws-opts:
-    path: /panika
-    headers: {}
-  region_info:
-    name: 德国
-    code: DE
   tcp_delay: 3
   clash_delay: 2026
   quality_score: 14
@@ -172,50 +169,74 @@ proxies:
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇩🇪 德国-2 [⚡可用]
-  type: vless
-  server: 178.17.51.244
-  port: 443
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: firebase.com
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 2
-  clash_delay: 2026
-  quality_score: 14
-  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
   type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  server: 104.26.6.89
+  port: 80
+  uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
   encryption: none
   flow: ''
   tls: false
   skip-cert-verify: false
   network: ws
   host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  path: /?ed
+  sni: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
   ws-opts:
-    path: /
+    path: /?ed
     headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 13
+  tcp_delay: 5
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇦🇩 安道尔-1 [⚡可用]
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 062613de-b8ec-4b14-eec8-f2a8ebd7fdff
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  host: joKer.mEmBerGolaBi.IR
+  path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
+  sni: joker.membergolabi.IR
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 8
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-2 [⚡可用]
+  type: vless
+  server: 162.159.44.204
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 6
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-3 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -238,7 +259,7 @@ proxies:
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-3 [⚡可用]
+- name: 🇺🇳 未知-4 [⚡可用]
   type: vless
   server: cdncdncdn.aikunapp.com
   port: 443
@@ -258,11 +279,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 298
+  tcp_delay: 99
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-4 [⚡可用]
+- name: 🇺🇳 未知-5 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -281,7 +302,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 107
+  tcp_delay: 108
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -297,10 +318,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-03-10 04:52:12'
-total_nodes: 13
-average_quality: 14.2
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:13
+update_time: '2026-03-11 01:09:17'
+total_nodes: 14
+average_quality: 13.9
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:14
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
