@@ -1,8 +1,8 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-13 01:12:15 (北京时间)
+#  更新时间   : 2026-03-13 04:53:28 (北京时间)
 #  节点总数   : 13 个优质节点
-#  平均质量分 : 13.2/100
+#  平均质量分 : 12.9/100
 #  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:13
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
@@ -26,7 +26,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 14
+  tcp_delay: 7
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -41,25 +41,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 14
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇸 美国-3 [⚡可用]
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: 98e80481-91a3-4d1a-8aa1-99f8b169bab4
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: ''
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 14
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -82,7 +64,7 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 14
+  tcp_delay: 8
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -102,7 +84,7 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 14
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -122,75 +104,58 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 14
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
   type: vless
-  server: 104.16.31.105
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 104.26.6.89
+  port: 80
+  uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
   encryption: none
   flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: bb-67r.pages.dev
-  path: /?ed=2560
-  sni: bb-67r.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: bb-67r.pages.dev
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 14
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
-  sni: red-dream-2d6c.xepis84786.workers.dev
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 29
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-3 [⚡可用]
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  path: /?ed
+  sni: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
   ws-opts:
-    path: /
+    path: /?ed
     headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 29
+  tcp_delay: 7
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-4 [⚡可用]
+- name: 🇺🇳 未知-2 [⚡可用]
+  type: vless
+  server: 198.41.209.47
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 8
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-3 [⚡可用]
   type: vless
   server: 162.159.44.204
   port: 443
@@ -210,11 +175,51 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 14
+  tcp_delay: 5
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-4 [⚡可用]
+  type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 17
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-5 [⚡可用]
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 14
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-6 [⚡可用]
   type: vless
   server: cdncdncdn.aikunapp.com
   port: 443
@@ -234,11 +239,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 138
+  tcp_delay: 33
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-6 [⚡可用]
+- name: 🇺🇳 未知-7 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -257,24 +262,25 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 157
+  tcp_delay: 116
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-7 [⚡可用]
-  type: trojan
-  server: store.ubi.com
+- name: 🇺🇳 未知-8 [⚡可用]
+  type: vmess
+  server: 78.159.246.66
   port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
+  uuid: 11c22abb-2d19-468c-8853-6ff41e3c42bb
+  alterId: 0
+  cipher: auto
   udp: true
-  alpn: []
   tls: true
+  skip-cert-verify: false
+  servername: ''
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 30
+  tcp_delay: 2075
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -290,9 +296,9 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-03-13 01:12:15'
+update_time: '2026-03-13 04:53:28'
 total_nodes: 13
-average_quality: 13.2
+average_quality: 12.9
 quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:13
 speedtest_config:
   mode: tcp_clash_xc
