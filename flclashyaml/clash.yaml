@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-18 01:18:43 (北京时间)
-#  节点总数   : 12 个节点
+#  更新时间   : 2026-03-18 04:58:28 (北京时间)
+#  节点总数   : 16 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,28 +9,29 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇸 美国-1
-  type: vmess
-  server: 148.135.33.227
+- name: 🇺🇳 未知-1
+  type: vless
+  server: 104.17.23.217
   port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
   tls: true
   skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
   ws-opts:
     path: /
     headers:
-      Host: www.60988297.xyz
+      Host: kivi.mrconfigur.site
   region_info:
-    name: 美国
-    code: US
-  tcp_delay: 7
-  clash_delay: 41
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-1
+    name: 未知
+    code: UN
+  tcp_delay: 15
+  clash_delay: 53
+- name: 🇺🇳 未知-2
   type: vless
   server: 198.41.209.47
   port: 443
@@ -50,8 +51,72 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
-  clash_delay: 35
+  tcp_delay: 16
+  clash_delay: 55
+- name: 🇺🇳 未知-3
+  type: vless
+  server: 104.16.31.105
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: bb-67r.pages.dev
+  path: /?ed=2560
+  sni: bb-67r.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: bb-67r.pages.dev
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 15
+  clash_delay: 56
+- name: 🇺🇸 美国-1
+  type: vmess
+  server: 148.135.33.227
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 15
+  clash_delay: 44
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-2
+  type: vless
+  server: 172.64.149.80
+  port: 443
+  uuid: 733a9a09-ba93-4e73-b1f3-ae0bcbd88310
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: noisy-paper-6b70.grirbp.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 16
+  clash_delay: 36
 - name: 🇬🇧 英国-1
   type: vless
   server: 46.101.82.35
@@ -71,25 +136,8 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 7
-  clash_delay: 33
-- name: 🇷🇺 俄罗斯-1
-  type: trojan
-  server: 176.124.223.40
-  port: 2053
-  password: Aimer
-  sni: ngepx.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 俄罗斯
-    code: RU
-  tcp_delay: 7
-  clash_delay: 39
-  quality_score: 13
-  quality_tag: ⚡可用
+  tcp_delay: 15
+  clash_delay: 32
 - name: 🇩🇪 德国-1
   type: vless
   server: 212.192.31.146
@@ -109,8 +157,8 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 7
-  clash_delay: 31
+  tcp_delay: 16
+  clash_delay: 28
 - name: 🇩🇪 德国-2
   type: vless
   server: 178.17.51.244
@@ -127,10 +175,10 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 8
-  clash_delay: 30
+  tcp_delay: 15
+  clash_delay: 26
 - type: trojan
-  name: 🇺🇸 美国-2
+  name: 🇺🇸 美国-3
   server: 64.94.95.118
   port: 57142
   password: kkzh2prsyr2ik47as615
@@ -140,11 +188,36 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
-  clash_delay: 24
+  tcp_delay: 16
+  clash_delay: 22
   quality_score: 15
   quality_tag: ⚡可用
-- name: 🇺🇸 美国-3
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 香港-1
+  network: ws
+  port: 443
+  server: 141.101.120.151
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /proxyip=sjc.o00o.ooo
+  xudp: true
+  servername: stall.saass.ccwu.cc
+  region_info:
+    name: 香港
+    code: HK
+  tcp_delay: 15
+  clash_delay: 38
+  bandwidth: 104.74MB/s
+  quality_score: 95
+  quality_tag: 🔥极品
+- name: 🇺🇸 美国-4
   type: vless
   server: 173.245.59.217
   port: 443
@@ -163,9 +236,9 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 9
-  clash_delay: 39
-- name: 🇺🇳 未知-2
+  tcp_delay: 15
+  clash_delay: 38
+- name: 🇺🇳 未知-4
   type: vless
   server: www.speedtest.net
   port: 443
@@ -184,9 +257,30 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 16
+  tcp_delay: 33
   clash_delay: 37
-- name: 🇺🇳 未知-3
+- name: 🇺🇸 美国-5
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 35
+  clash_delay: 34
+- name: 🇺🇳 未知-5
   type: vless
   server: africa.visa.com
   port: 8880
@@ -205,9 +299,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 21
-  clash_delay: 39
-- name: 🇺🇳 未知-4
+  tcp_delay: 38
+  clash_delay: 35
+- name: 🇺🇳 未知-6
   type: vless
   server: cdncdncdn.aikunapp.com
   port: 443
@@ -227,9 +321,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 38
-  clash_delay: 54
-- name: 🇺🇳 未知-5
+  tcp_delay: 116
+  clash_delay: 52
+- name: 🇺🇳 未知-7
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -248,7 +342,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 113
+  tcp_delay: 144
   clash_delay: 20
 last_message_ids:
   '@fqDINYUE': 4877
