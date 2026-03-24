@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-25 01:15:43 (北京时间)
-#  节点总数   : 10 个节点
+#  更新时间   : 2026-03-25 04:59:06 (北京时间)
+#  节点总数   : 7 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,42 +9,6 @@
 # ==================================================
 
 proxies:
-- name: 🇦🇩 安道尔-1
-  type: trojan
-  server: 172.67.165.204
-  port: 443
-  password: your_password
-  sni: aws-aus-sydney-1.f1cflinea.com
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 4
-  clash_delay: 41
-- name: 🇺🇳 未知-1
-  type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 16
-  clash_delay: 54
 - name: 🇺🇸 美国-1
   type: vmess
   server: 148.135.33.227
@@ -62,10 +26,49 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 3
-  clash_delay: 32
+  tcp_delay: 7
+  clash_delay: 43
   quality_score: 15
   quality_tag: ⚡可用
+- name: 🇺🇳 未知-1
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 9
+  clash_delay: 45
+- name: 🇩🇪 德国-1
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 6
+  clash_delay: 33
 - name: 🇺🇳 未知-2
   type: vless
   server: cdncdncdn.aikunapp.com
@@ -86,62 +89,29 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 35
-  clash_delay: 56
-- name: 🇩🇪 德国-1
+  tcp_delay: 37
+  clash_delay: 57
+- name: 🇩🇪 德国-2
   type: vless
-  server: 178.17.51.244
+  server: 212.192.31.146
   port: 443
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
   encryption: none
-  flow: xtls-rprx-vision
-  tls: true
+  flow: ''
+  tls: false
   skip-cert-verify: false
-  network: tcp
+  network: ws
   host: ''
-  path: ''
-  sni: firebase.com
+  path: /panika
+  sni: ''
+  ws-opts:
+    path: /panika
+    headers: {}
   region_info:
     name: 德国
     code: DE
   tcp_delay: 6
-  clash_delay: 32
-- name: 🇺🇳 未知-3
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 12
-  clash_delay: 43
-- name: 🇺🇳 未知-4
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 28
-  clash_delay: 40
+  clash_delay: 31
 - type: trojan
   name: 🇺🇸 美国-2
   server: 64.94.95.118
@@ -153,32 +123,11 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 3
-  clash_delay: 21
+  tcp_delay: 6
+  clash_delay: 24
   quality_score: 15
   quality_tag: ⚡可用
-- name: 🇺🇸 美国-3
-  type: vless
-  server: www.shopify.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 13
-  clash_delay: 25
-- name: 🇺🇳 未知-5
+- name: 🇺🇳 未知-3
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -197,7 +146,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 109
+  tcp_delay: 118
   clash_delay: 22
 last_message_ids:
   '@fqDINYUE': 4877
