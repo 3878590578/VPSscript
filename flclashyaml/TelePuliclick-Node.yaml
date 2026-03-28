@@ -1,38 +1,15 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-28 04:57:44 (北京时间)
-#  节点总数   : 9 个优质节点
-#  平均质量分 : 13.2/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:9
+#  更新时间   : 2026-03-29 00:52:20 (北京时间)
+#  节点总数   : 6 个优质节点
+#  平均质量分 : 13.7/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:6
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
 - name: 🇺🇸 美国-1 [⚡可用]
-  type: vless
-  server: www.shopify.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 9
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇸 美国-2 [⚡可用]
   type: vmess
   server: 148.135.33.227
   port: 443
@@ -49,12 +26,12 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 2
+  tcp_delay: 5
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
 - type: trojan
-  name: 🇺🇸 美国-3 [⚡可用]
+  name: 🇺🇸 美国-2 [⚡可用]
   server: 64.94.95.118
   port: 57142
   password: kkzh2prsyr2ik47as615
@@ -70,6 +47,29 @@ proxies:
   quality_tag: ⚡可用
 - name: 🇩🇪 德国-1 [⚡可用]
   type: vless
+  server: 212.192.31.146
+  port: 443
+  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /panika
+  sni: ''
+  ws-opts:
+    path: /panika
+    headers: {}
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-2 [⚡可用]
+  type: vless
   server: 178.17.51.244
   port: 443
   uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
@@ -84,51 +84,11 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 2
+  tcp_delay: 5
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
-- name: 🇦🇩 安道尔-1 [⚡可用]
-  type: trojan
-  server: 172.67.165.204
-  port: 443
-  password: your_password
-  sni: aws-aus-sydney-1.f1cflinea.com
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 2
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
-  type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 14
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -147,35 +107,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 10
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-3 [⚡可用]
-  type: vless
-  server: cdncdncdn.aikunapp.com
-  port: 443
-  uuid: 1820d2f4-3237-4045-ac9e-356677c8b8f4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: cdn-us.sm-node.com
-  path: /vless_ws/smjc/index?ed=4096
-  sni: r-S3dqebdRYVExWbGI.sm-node.com
-  ws-opts:
-    path: /vless_ws/smjc/index?ed=4096
-    headers:
-      Host: cdn-us.sm-node.com
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 99
-  clash_delay: 2026
-  quality_score: 12
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-4 [⚡可用]
+- name: 🇺🇳 未知-2 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -194,7 +130,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 103
+  tcp_delay: 94
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -210,10 +146,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-03-28 04:57:44'
-total_nodes: 9
-average_quality: 13.2
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:9
+update_time: '2026-03-29 00:52:20'
+total_nodes: 6
+average_quality: 13.7
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:6
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
