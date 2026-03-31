@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-03-31 05:03:21 (北京时间)
-#  节点总数   : 13 个节点
+#  更新时间   : 2026-04-01 01:15:39 (北京时间)
+#  节点总数   : 8 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,43 +9,7 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇸 美国-1
-  type: vmess
-  server: 148.135.33.227
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: /
-    headers:
-      Host: www.60988297.xyz
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 18
-  clash_delay: 55
-  quality_score: 15
-  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1
-  type: trojan
-  server: 104.26.1.110
-  port: 443
-  password: 5a2c16f9
-  sni: snippets.kkii.eu.org
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 18
-  clash_delay: 55
-- name: 🇺🇳 未知-2
   type: vless
   server: 198.41.209.47
   port: 443
@@ -65,9 +29,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 18
-  clash_delay: 50
-- name: 🇺🇳 未知-3
+  tcp_delay: 7
+  clash_delay: 58
+- name: 🇺🇳 未知-2
   type: vless
   server: 104.16.31.105
   port: 443
@@ -87,53 +51,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 18
-  clash_delay: 49
-- name: 🇺🇳 未知-4
-  type: vless
-  server: 104.17.23.217
-  port: 443
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: kivi.mrconfigur.site
-  path: /
-  sni: kivi.mrconfigur.site
-  ws-opts:
-    path: /
-    headers:
-      Host: kivi.mrconfigur.site
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 21
-  clash_delay: 59
-- name: 🇦🇩 安道尔-1
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 43
-  clash_delay: 57
-- name: 🇺🇸 美国-2
+  tcp_delay: 9
+  clash_delay: 54
+- name: 🇺🇸 美国-1
   type: vless
   server: www.shopify.com
   port: 2095
@@ -152,65 +72,50 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 44
-  clash_delay: 48
-- name: 🇺🇳 未知-5
-  type: vless
-  server: www.speedtest.net
+  tcp_delay: 23
+  clash_delay: 52
+- name: 🇺🇸 美国-2
+  type: vmess
+  server: 148.135.33.227
   port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 7
+  clash_delay: 39
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-3
+  type: vless
+  server: africa.visa.com
+  port: 8880
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
   encryption: none
   flow: ''
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   host: ''
   path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
   ws-opts:
     path: /
     headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 44
-  clash_delay: 29
-- type: trojan
-  name: 🇺🇸 美国-3
-  server: 64.94.95.118
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  network: tcp
-  skip-cert-verify: true
-  tls: true
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 18
-  clash_delay: 23
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇹🇼 台湾-1
-  type: vless
-  server: 114.32.9.249
-  port: 16443
-  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: stall.saass.ccwu.cc
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 台湾
-    code: TW
-  tcp_delay: 19
-  clash_delay: 23
+  tcp_delay: 27
+  clash_delay: 53
 - name: 🇩🇪 德国-1
   type: vless
   server: 212.192.31.146
@@ -230,8 +135,8 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 21
-  clash_delay: 22
+  tcp_delay: 7
+  clash_delay: 30
 - name: 🇩🇪 德国-2
   type: vless
   server: 178.17.51.244
@@ -248,29 +153,29 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 21
-  clash_delay: 20
-- name: 🇺🇳 未知-6
+  tcp_delay: 7
+  clash_delay: 29
+- name: 🇺🇳 未知-4
   type: vless
-  server: zoom.seaseus.pp.ua
+  server: www.speedtest.net
   port: 443
-  uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
   encryption: none
   flow: ''
   tls: true
   skip-cert-verify: false
   network: ws
   host: ''
-  path: /seaseus
-  sni: zoom.seaseus.pp.ua
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
   ws-opts:
-    path: /seaseus
+    path: /
     headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 217
-  clash_delay: 21
+  tcp_delay: 18
+  clash_delay: 24
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
