@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-01 04:58:32 (北京时间)
-#  节点总数   : 8 个节点
+#  更新时间   : 2026-04-02 01:17:25 (北京时间)
+#  节点总数   : 10 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -26,8 +26,8 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 2
-  clash_delay: 46
+  tcp_delay: 3
+  clash_delay: 41
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-1
@@ -49,42 +49,97 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 8
-  clash_delay: 47
+  tcp_delay: 9
+  clash_delay: 42
 - name: 🇦🇩 安道尔-1
-  type: trojan
-  server: 172.67.165.204
-  port: 443
-  password: your_password
-  sni: aws-aus-sydney-1.f1cflinea.com
+  type: vless
+  server: www.speedtest.net
+  port: 2082
+  uuid: 21a4f9b4-8b7c-440c-8c9a-8e61d001ad80
+  encryption: none
+  flow: ''
+  tls: false
   skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
+  network: ws
+  host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  sni: ''
+  ws-opts:
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 6
-  clash_delay: 40
-- name: 🇷🇺 俄罗斯-1
-  type: trojan
-  server: 176.124.223.40
-  port: 2053
-  password: Aimer
-  sni: ngepx.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  udp: true
-  alpn: []
+  tcp_delay: 8
+  clash_delay: 41
+- name: 🇺🇳 未知-2
+  type: vless
+  server: 198.41.209.47
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
   tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
   region_info:
-    name: 俄罗斯
-    code: RU
+    name: 未知
+    code: UN
   tcp_delay: 3
-  clash_delay: 38
-  quality_score: 13
-  quality_tag: ⚡可用
+  clash_delay: 37
+- name: 🇺🇳 未知-3
+  type: vless
+  server: 104.17.23.217
+  port: 443
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kivi.mrconfigur.site
+  path: /
+  sni: kivi.mrconfigur.site
+  ws-opts:
+    path: /
+    headers:
+      Host: kivi.mrconfigur.site
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 6
+  clash_delay: 39
+- name: 🇺🇸 美国-2
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 9
+  clash_delay: 37
 - type: trojan
-  name: 🇺🇸 美国-2
+  name: 🇺🇸 美国-3
   server: 64.94.95.118
   port: 57142
   password: kkzh2prsyr2ik47as615
@@ -95,7 +150,7 @@ proxies:
     name: 美国
     code: US
   tcp_delay: 3
-  clash_delay: 27
+  clash_delay: 26
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇩🇪 德国-1
@@ -114,31 +169,24 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 4
-  clash_delay: 26
-- name: 🇦🇩 安道尔-2
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
+  tcp_delay: 2
+  clash_delay: 22
+- name: 🇺🇳 未知-4
+  type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
   skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  udp: true
+  alpn: []
+  tls: true
   region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 8
-  clash_delay: 26
-- name: 🇺🇳 未知-2
+    name: 未知
+    code: UN
+  tcp_delay: 24
+  clash_delay: 27
+- name: 🇺🇳 未知-5
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -157,8 +205,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 113
-  clash_delay: 33
+  tcp_delay: 123
+  clash_delay: 27
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
