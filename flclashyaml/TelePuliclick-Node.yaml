@@ -1,33 +1,30 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-02 05:02:52 (北京时间)
-#  节点总数   : 7 个优质节点
-#  平均质量分 : 14.0/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
+#  更新时间   : 2026-04-03 01:11:18 (北京时间)
+#  节点总数   : 6 个优质节点
+#  平均质量分 : 13.7/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:6
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
 - type: trojan
-  name: 🇹🇭 泰国-1 [⚡可用]
-  server: 194.87.45.19
-  port: 8443
-  password: ab76e7da-2d38-4351-b625-6a5aba7f0adf
-  network: ws
-  sni: joss.gpj.web.id
-  fingerprint: chrome
+  name: 🇺🇸 美国-1 [⚡可用]
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
   tls: true
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/194.87.45.19=8443
   region_info:
-    name: 泰国
-    code: TH
-  tcp_delay: 8
+    name: 美国
+    code: US
+  tcp_delay: 3
   clash_delay: 2026
-  quality_score: 16
+  quality_score: 15
   quality_tag: ⚡可用
-- name: 🇺🇸 美国-1 [⚡可用]
+- name: 🇺🇸 美国-2 [⚡可用]
   type: vmess
   server: 148.135.33.227
   port: 443
@@ -44,22 +41,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- type: trojan
-  name: 🇺🇸 美国-2 [⚡可用]
-  server: 64.94.95.118
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  network: tcp
-  skip-cert-verify: true
-  tls: true
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 5
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -82,7 +64,7 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 6
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -102,7 +84,7 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 6
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -125,7 +107,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 19
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -148,7 +130,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 109
+  tcp_delay: 130
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -164,10 +146,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-04-02 05:02:52'
-total_nodes: 7
-average_quality: 14.0
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
+update_time: '2026-04-03 01:11:18'
+total_nodes: 6
+average_quality: 13.7
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:6
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true

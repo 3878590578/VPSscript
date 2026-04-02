@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-02 05:02:52 (北京时间)
-#  节点总数   : 7 个节点
+#  更新时间   : 2026-04-03 01:11:18 (北京时间)
+#  节点总数   : 6 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,27 +9,6 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇸 美国-1
-  type: vmess
-  server: 148.135.33.227
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: /
-    headers:
-      Host: www.60988297.xyz
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 7
-  clash_delay: 40
-  quality_score: 15
-  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1
   type: vless
   server: www.speedtest.net
@@ -49,24 +28,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 19
+  tcp_delay: 6
   clash_delay: 46
-- type: trojan
-  name: 🇹🇭 泰国-1
-  server: 194.87.45.19
-  port: 8443
-  password: ab76e7da-2d38-4351-b625-6a5aba7f0adf
-  network: ws
-  sni: joss.gpj.web.id
-  fingerprint: chrome
-  tls: true
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/194.87.45.19=8443
-  region_info:
-    name: 泰国
-    code: TH
-  tcp_delay: 8
-  clash_delay: 41
 - name: 🇩🇪 德国-1
   type: vless
   server: 212.192.31.146
@@ -86,8 +49,29 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 6
-  clash_delay: 30
+  tcp_delay: 3
+  clash_delay: 29
+- name: 🇺🇸 美国-1
+  type: vmess
+  server: 148.135.33.227
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 3
+  clash_delay: 29
+  quality_score: 15
+  quality_tag: ⚡可用
 - type: trojan
   name: 🇺🇸 美国-2
   server: 64.94.95.118
@@ -99,8 +83,8 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 5
-  clash_delay: 23
+  tcp_delay: 3
+  clash_delay: 22
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇩🇪 德国-2
@@ -119,7 +103,7 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 6
+  tcp_delay: 3
   clash_delay: 21
 - name: 🇺🇳 未知-2
   type: vless
@@ -140,8 +124,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 109
-  clash_delay: 26
+  tcp_delay: 130
+  clash_delay: 22
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
