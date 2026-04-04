@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-05 00:55:00 (北京时间)
+#  更新时间   : 2026-04-05 04:50:22 (北京时间)
 #  节点总数   : 7 个优质节点
 #  平均质量分 : 13.4/100
 #  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
@@ -26,7 +26,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 2
+  tcp_delay: 4
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
@@ -64,7 +64,7 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 2
+  tcp_delay: 3
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
@@ -89,19 +89,25 @@ proxies:
   quality_score: 14
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
-  sni: red-dream-2d6c.xepis84786.workers.dev
+  type: vless
+  server: africa.visa.com
+  port: 8880
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  encryption: none
+  flow: ''
+  tls: false
   skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
+  network: ws
+  host: ''
+  path: /
+  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 5
+  tcp_delay: 16
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -147,7 +153,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 154
+  tcp_delay: 104
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -163,7 +169,7 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-04-05 00:55:00'
+update_time: '2026-04-05 04:50:22'
 total_nodes: 7
 average_quality: 13.4
 quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7

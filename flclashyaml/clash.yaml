@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-05 00:55:00 (北京时间)
+#  更新时间   : 2026-04-05 04:50:22 (北京时间)
 #  节点总数   : 7 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
@@ -10,42 +10,6 @@
 
 proxies:
 - name: 🇺🇳 未知-1
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
-  sni: red-dream-2d6c.xepis84786.workers.dev
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 5
-  clash_delay: 41
-- name: 🇺🇸 美国-1
-  type: vmess
-  server: 148.135.33.227
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: /
-    headers:
-      Host: www.60988297.xyz
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 2
-  clash_delay: 37
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇳 未知-2
   type: vless
   server: www.speedtest.net
   port: 443
@@ -65,7 +29,67 @@ proxies:
     name: 未知
     code: UN
   tcp_delay: 6
-  clash_delay: 34
+  clash_delay: 49
+- name: 🇺🇳 未知-2
+  type: vless
+  server: africa.visa.com
+  port: 8880
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 16
+  clash_delay: 41
+- name: 🇩🇪 德国-1
+  type: vless
+  server: 212.192.31.146
+  port: 443
+  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /panika
+  sni: ''
+  ws-opts:
+    path: /panika
+    headers: {}
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+  clash_delay: 32
+- name: 🇩🇪 德国-2
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 2
+  clash_delay: 30
 - name: 🇺🇳 未知-3
   type: vless
   server: zoom.seaseus.pp.ua
@@ -85,8 +109,29 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 154
-  clash_delay: 31
+  tcp_delay: 104
+  clash_delay: 33
+- name: 🇺🇸 美国-1
+  type: vmess
+  server: 148.135.33.227
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 4
+  clash_delay: 27
+  quality_score: 15
+  quality_tag: ⚡可用
 - type: trojan
   name: 🇺🇸 美国-2
   server: 64.94.95.118
@@ -99,48 +144,9 @@ proxies:
     name: 美国
     code: US
   tcp_delay: 2
-  clash_delay: 21
+  clash_delay: 23
   quality_score: 15
   quality_tag: ⚡可用
-- name: 🇩🇪 德国-1
-  type: vless
-  server: 178.17.51.244
-  port: 443
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: firebase.com
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 2
-  clash_delay: 21
-- name: 🇩🇪 德国-2
-  type: vless
-  server: 212.192.31.146
-  port: 443
-  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /panika
-  sni: ''
-  ws-opts:
-    path: /panika
-    headers: {}
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 2
-  clash_delay: 20
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
