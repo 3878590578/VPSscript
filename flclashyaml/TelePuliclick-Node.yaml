@@ -1,8 +1,8 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-04 04:54:22 (北京时间)
+#  更新时间   : 2026-04-05 00:55:00 (北京时间)
 #  节点总数   : 7 个优质节点
-#  平均质量分 : 13.9/100
+#  平均质量分 : 13.4/100
 #  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
@@ -10,29 +10,6 @@
 
 proxies:
 - name: 🇺🇸 美国-1 [⚡可用]
-  type: vless
-  server: www.shopify.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 17
-  clash_delay: 2026
-  quality_score: 15
-  quality_tag: ⚡可用
-- name: 🇺🇸 美国-2 [⚡可用]
   type: vmess
   server: 148.135.33.227
   port: 443
@@ -49,12 +26,12 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 8
+  tcp_delay: 2
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
 - type: trojan
-  name: 🇺🇸 美国-3 [⚡可用]
+  name: 🇺🇸 美国-2 [⚡可用]
   server: 64.94.95.118
   port: 57142
   password: kkzh2prsyr2ik47as615
@@ -64,31 +41,11 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 6
+  tcp_delay: 2
   clash_delay: 2026
   quality_score: 15
   quality_tag: ⚡可用
 - name: 🇩🇪 德国-1 [⚡可用]
-  type: vless
-  server: 178.17.51.244
-  port: 443
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: firebase.com
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 8
-  clash_delay: 2026
-  quality_score: 14
-  quality_tag: ⚡可用
-- name: 🇩🇪 德国-2 [⚡可用]
   type: vless
   server: 212.192.31.146
   port: 443
@@ -107,11 +64,48 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 7
+  tcp_delay: 2
+  clash_delay: 2026
+  quality_score: 14
+  quality_tag: ⚡可用
+- name: 🇩🇪 德国-2 [⚡可用]
+  type: vless
+  server: 178.17.51.244
+  port: 443
+  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: firebase.com
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 2
   clash_delay: 2026
   quality_score: 14
   quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
+  sni: red-dream-2d6c.xepis84786.workers.dev
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 5
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -130,11 +124,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 17
+  tcp_delay: 6
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
+- name: 🇺🇳 未知-3 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -153,7 +147,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 110
+  tcp_delay: 154
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -169,9 +163,9 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-04-04 04:54:22'
+update_time: '2026-04-05 00:55:00'
 total_nodes: 7
-average_quality: 13.9
+average_quality: 13.4
 quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:7
 speedtest_config:
   mode: tcp_clash_xc
