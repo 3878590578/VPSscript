@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-05 04:50:22 (北京时间)
-#  节点总数   : 7 个节点
+#  更新时间   : 2026-04-06 00:56:07 (北京时间)
+#  节点总数   : 6 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,6 +9,27 @@
 # ==================================================
 
 proxies:
+- name: 🇺🇸 美国-1
+  type: vmess
+  server: 148.135.33.227
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.60988297.xyz
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 3
+  clash_delay: 42
+  quality_score: 15
+  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1
   type: vless
   server: www.speedtest.net
@@ -28,51 +49,24 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 6
-  clash_delay: 49
-- name: 🇺🇳 未知-2
-  type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 16
-  clash_delay: 41
-- name: 🇩🇪 德国-1
-  type: vless
-  server: 212.192.31.146
+  tcp_delay: 10
+  clash_delay: 47
+- name: 🇦🇩 安道尔-1
+  type: trojan
+  server: 172.67.165.204
   port: 443
-  uuid: 199a78a5-b4d4-4064-a0db-bb37c5839134
-  encryption: none
-  flow: ''
-  tls: false
+  password: your_password
+  sni: aws-aus-sydney-1.f1cflinea.com
   skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /panika
-  sni: ''
-  ws-opts:
-    path: /panika
-    headers: {}
+  udp: true
+  alpn: []
+  tls: true
   region_info:
-    name: 德国
-    code: DE
+    name: 安道尔
+    code: AD
   tcp_delay: 3
-  clash_delay: 32
-- name: 🇩🇪 德国-2
+  clash_delay: 38
+- name: 🇩🇪 德国-1
   type: vless
   server: 178.17.51.244
   port: 443
@@ -88,9 +82,24 @@ proxies:
   region_info:
     name: 德国
     code: DE
-  tcp_delay: 2
-  clash_delay: 30
-- name: 🇺🇳 未知-3
+  tcp_delay: 6
+  clash_delay: 29
+- type: trojan
+  name: 🇺🇸 美国-2
+  server: 64.94.95.118
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  network: tcp
+  skip-cert-verify: true
+  tls: true
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 4
+  clash_delay: 26
+  quality_score: 15
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -109,44 +118,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 104
-  clash_delay: 33
-- name: 🇺🇸 美国-1
-  type: vmess
-  server: 148.135.33.227
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: false
-  ws-opts:
-    path: /
-    headers:
-      Host: www.60988297.xyz
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 4
-  clash_delay: 27
-  quality_score: 15
-  quality_tag: ⚡可用
-- type: trojan
-  name: 🇺🇸 美国-2
-  server: 64.94.95.118
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  network: tcp
-  skip-cert-verify: true
-  tls: true
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 2
-  clash_delay: 23
-  quality_score: 15
-  quality_tag: ⚡可用
+  tcp_delay: 106
+  clash_delay: 30
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
