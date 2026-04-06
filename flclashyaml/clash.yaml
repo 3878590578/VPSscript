@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-06 04:51:42 (北京时间)
-#  节点总数   : 4 个节点
+#  更新时间   : 2026-04-07 01:08:22 (北京时间)
+#  节点总数   : 3 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -10,6 +10,28 @@
 
 proxies:
 - name: 🇺🇳 未知-1
+  type: vless
+  server: 104.16.31.105
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: bb-67r.pages.dev
+  path: /?ed=2560
+  sni: bb-67r.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: bb-67r.pages.dev
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 3
+  clash_delay: 59
+- name: 🇺🇳 未知-2
   type: vless
   server: www.speedtest.net
   port: 443
@@ -28,9 +50,9 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 4
-  clash_delay: 59
-- name: 🇺🇳 未知-2
+  tcp_delay: 8
+  clash_delay: 43
+- name: 🇺🇳 未知-3
   type: vless
   server: africa.visa.com
   port: 8880
@@ -49,51 +71,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 9
-  clash_delay: 56
-- name: 🇦🇩 安道尔-1
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 4
-  clash_delay: 39
-- name: 🇺🇳 未知-3
-  type: vless
-  server: zoom.seaseus.pp.ua
-  port: 443
-  uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /seaseus
-  sni: zoom.seaseus.pp.ua
-  ws-opts:
-    path: /seaseus
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 601
-  clash_delay: 37
+  tcp_delay: 16
+  clash_delay: 35
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
