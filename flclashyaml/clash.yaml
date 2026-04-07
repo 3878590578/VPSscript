@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-07 04:57:19 (北京时间)
-#  节点总数   : 3 个节点
+#  更新时间   : 2026-04-08 01:17:08 (北京时间)
+#  节点总数   : 4 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -28,13 +28,13 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 16
-  clash_delay: 40
-- name: 🇺🇳 未知-2
+  tcp_delay: 4
+  clash_delay: 55
+- name: 🇺🇸 美国-1
   type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   encryption: none
   flow: ''
   tls: false
@@ -42,16 +42,16 @@ proxies:
   network: ws
   host: ''
   path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
   ws-opts:
     path: /
     headers: {}
   region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 26
-  clash_delay: 38
-- name: 🇺🇳 未知-3
+    name: 美国
+    code: US
+  tcp_delay: 6
+  clash_delay: 40
+- name: 🇺🇳 未知-2
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -70,8 +70,29 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 125
-  clash_delay: 24
+  tcp_delay: 156
+  clash_delay: 22
+- name: 🇹🇼 台湾-1
+  type: vless
+  server: 114.32.9.249
+  port: 16443
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: stall.saass.ccwu.cc
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 台湾
+    code: TW
+  tcp_delay: 4
+  clash_delay: 20
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089

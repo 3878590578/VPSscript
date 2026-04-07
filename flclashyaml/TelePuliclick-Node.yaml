@@ -1,19 +1,42 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-07 04:57:19 (北京时间)
-#  节点总数   : 3 个优质节点
-#  平均质量分 : 12.0/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:3
+#  更新时间   : 2026-04-08 01:17:08 (北京时间)
+#  节点总数   : 4 个优质节点
+#  平均质量分 : 15.0/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:4
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1 [⚡可用]
+- name: 🇹🇼 台湾-1 [⚡可用]
   type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  server: 114.32.9.249
+  port: 16443
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: stall.saass.ccwu.cc
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 台湾
+    code: TW
+  tcp_delay: 4
+  clash_delay: 2026
+  quality_score: 21
+  quality_tag: ⚡可用
+- name: 🇺🇸 美国-1 [⚡可用]
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   encryption: none
   flow: ''
   tls: false
@@ -21,18 +44,18 @@ proxies:
   network: ws
   host: ''
   path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
   ws-opts:
     path: /
     headers: {}
   region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 26
+    name: 美国
+    code: US
+  tcp_delay: 6
   clash_delay: 2026
-  quality_score: 12
+  quality_score: 15
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
+- name: 🇺🇳 未知-1 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -51,11 +74,11 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 16
+  tcp_delay: 4
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-3 [⚡可用]
+- name: 🇺🇳 未知-2 [⚡可用]
   type: vless
   server: zoom.seaseus.pp.ua
   port: 443
@@ -74,7 +97,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 125
+  tcp_delay: 156
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -90,10 +113,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-04-07 04:57:19'
-total_nodes: 3
-average_quality: 12.0
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:3
+update_time: '2026-04-08 01:17:08'
+total_nodes: 4
+average_quality: 15.0
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:4
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
