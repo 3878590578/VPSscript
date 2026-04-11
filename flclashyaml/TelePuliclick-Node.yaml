@@ -1,24 +1,78 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-12 00:56:46 (北京时间)
-#  节点总数   : 2 个优质节点
+#  更新时间   : 2026-04-12 04:52:12 (北京时间)
+#  节点总数   : 4 个优质节点
 #  平均质量分 : 12.0/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:2
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:4
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1 [⚡可用]
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
+- name: 🇦🇩 安道尔-1 [⚡可用]
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
+  encryption: none
+  flow: ''
   tls: true
+  skip-cert-verify: false
+  network: ws
+  host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
+  ws-opts:
+    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+    headers:
+      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 29
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-1 [⚡可用]
+  type: vless
+  server: 104.16.31.105
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: bb-67r.pages.dev
+  path: /?ed=2560
+  sni: bb-67r.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: bb-67r.pages.dev
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 14
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2 [⚡可用]
+  type: vless
+  server: africa.visa.com
+  port: 8880
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
   region_info:
     name: 未知
     code: UN
@@ -26,7 +80,7 @@ proxies:
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
-- name: 🇺🇳 未知-2 [⚡可用]
+- name: 🇺🇳 未知-3 [⚡可用]
   type: vless
   server: www.speedtest.net
   port: 443
@@ -45,7 +99,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 20
+  tcp_delay: 29
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -61,10 +115,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-04-12 00:56:46'
-total_nodes: 2
+update_time: '2026-04-12 04:52:12'
+total_nodes: 4
 average_quality: 12.0
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:2
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:4
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true
