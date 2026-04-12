@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-13 00:58:01 (北京时间)
+#  更新时间   : 2026-04-13 04:54:17 (北京时间)
 #  节点总数   : 25 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
@@ -9,6 +9,88 @@
 # ==================================================
 
 proxies:
+- name: 🇦🇩 安道尔-1
+  type: trojan
+  server: 172.67.165.204
+  port: 443
+  password: your_password
+  sni: aws-aus-sydney-1.f1cflinea.com
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 3
+- name: 🇭🇰 香港-1
+  type: vless
+  server: 202.85.53.67
+  port: 7000
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: kuangbao.xiejiang.dpdns.org
+  path: /?ed=2560
+  sni: kuangbao.xiejiang.dpdns.org
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+  region_info:
+    name: 香港
+    code: HK
+  tcp_delay: 3
+- name: 🇦🇩 安道尔-2
+  type: ss
+  server: 109.61.39.28
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 2
+- name: 🇦🇩 安道尔-3
+  type: ss
+  server: 49.12.203.80
+  port: 40960
+  cipher: aes-256-gcm
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  udp: true
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 香港-2
+  network: ws
+  port: 443
+  server: 141.101.120.151
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /proxyip=sjc.o00o.ooo
+  xudp: true
+  servername: stall.saass.ccwu.cc
+  region_info:
+    name: 香港
+    code: HK
+  tcp_delay: 3
+  clash_delay: 54
+  bandwidth: 104.74MB/s
+  quality_score: 95
+  quality_tag: 🔥极品
 - name: 🇬🇧 英国-1
   type: hysteria2
   server: 31.220.30.234
@@ -36,62 +118,53 @@ proxies:
     name: 英国
     code: GB
   tcp_delay: 2
-- name: 🇭🇰 香港-1
+- name: 🇩🇪 德国-1
+  type: hysteria2
+  server: 85.209.53.170
+  port: 443
+  password: 8d3472e1-e182-45a6-8d0e-080699fb09fd
+  skip-cert-verify: true
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  region_info:
+    name: 德国
+    code: DE
+  tcp_delay: 3
+- name: 🇮🇳 印度-1
   type: vless
-  server: 202.85.53.67
-  port: 7000
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  server: 185.130.114.219
+  port: 443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  encryption: none
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  host: ''
+  path: ''
+  sni: www.cloudflare.com
+  region_info:
+    name: 印度
+    code: IN
+  tcp_delay: 2
+- name: 🇬🇧 英国-2
+  type: vless
+  server: 144.126.206.161
+  port: 443
+  uuid: 1ea1970b-f310-409e-b7d7-1a06a4c4509f
   encryption: none
   flow: ''
   tls: true
   skip-cert-verify: false
   network: ws
-  host: kuangbao.xiejiang.dpdns.org
-  path: /?ed=2560
-  sni: kuangbao.xiejiang.dpdns.org
+  host: ''
+  path: ''
+  sni: ''
   ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
+    path: ''
+    headers: {}
   region_info:
-    name: 香港
-    code: HK
-  tcp_delay: 3
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇭🇰 香港-2
-  network: ws
-  port: 443
-  server: 141.101.120.151
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
-  ws-opts:
-    headers:
-      Host: stall.saass.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /proxyip=sjc.o00o.ooo
-  xudp: true
-  servername: stall.saass.ccwu.cc
-  region_info:
-    name: 香港
-    code: HK
-  tcp_delay: 4
-  clash_delay: 54
-  bandwidth: 104.74MB/s
-  quality_score: 95
-  quality_tag: 🔥极品
-- name: 🇦🇩 安道尔-1
-  type: ss
-  server: 109.61.39.28
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  region_info:
-    name: 安道尔
-    code: AD
+    name: 英国
+    code: GB
   tcp_delay: 2
 - name: 🇺🇳 未知-1
   type: vless
@@ -113,80 +186,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 3
-- name: 🇮🇳 印度-1
-  type: vless
-  server: 185.130.114.219
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  encryption: none
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  host: ''
-  path: ''
-  sni: www.cloudflare.com
-  region_info:
-    name: 印度
-    code: IN
-  tcp_delay: 3
-- name: 🇦🇩 安道尔-2
-  type: trojan
-  server: 172.67.165.204
-  port: 443
-  password: your_password
-  sni: aws-aus-sydney-1.f1cflinea.com
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 3
-- name: 🇬🇧 英国-2
-  type: vless
-  server: 144.126.206.161
-  port: 443
-  uuid: 1ea1970b-f310-409e-b7d7-1a06a4c4509f
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: ''
-  sni: ''
-  ws-opts:
-    path: ''
-    headers: {}
-  region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 3
-- name: 🇩🇪 德国-1
-  type: hysteria2
-  server: 85.209.53.170
-  port: 443
-  password: 8d3472e1-e182-45a6-8d0e-080699fb09fd
-  skip-cert-verify: true
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  region_info:
-    name: 德国
-    code: DE
-  tcp_delay: 3
-- name: 🇦🇩 安道尔-3
-  type: ss
-  server: 49.12.203.80
-  port: 40960
-  cipher: aes-256-gcm
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  udp: true
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 3
+  tcp_delay: 2
 - name: 🇺🇳 未知-2
   type: trojan
   server: www.speedtest.net
@@ -200,7 +200,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
+  tcp_delay: 5
 - name: 🇺🇳 未知-3
   type: vless
   server: www.speedtest.net
@@ -220,7 +220,28 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
+  tcp_delay: 5
+- name: 🇦🇩 安道尔-4
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
+  ws-opts:
+    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+    headers:
+      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 5
 - name: 🇰🇮 基里巴斯-1
   type: vless
   server: www.speedtest.net
@@ -241,8 +262,8 @@ proxies:
   region_info:
     name: 基里巴斯
     code: KI
-  tcp_delay: 7
-- name: 🇦🇩 安道尔-4
+  tcp_delay: 5
+- name: 🇦🇩 安道尔-5
   type: vless
   server: www.speedtest.net
   port: 2082
@@ -262,28 +283,7 @@ proxies:
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 8
-- name: 🇦🇩 安道尔-5
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 8
+  tcp_delay: 5
 - name: 🇦🇩 安道尔-6
   type: vless
   server: www.speedtest.net
@@ -300,7 +300,7 @@ proxies:
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 8
+  tcp_delay: 5
 - name: 🇺🇸 美国-1
   type: vless
   server: www.shopify.com
@@ -320,8 +320,22 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 9
+  tcp_delay: 7
 - name: 🇺🇳 未知-4
+  type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 7
+- name: 🇺🇳 未知-5
   type: vless
   server: africa.visa.com
   port: 8880
@@ -340,34 +354,33 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 15
-- name: 🇹🇼 台湾-1
-  server: green2.cdntencentmusic.com
-  port: 35501
+  tcp_delay: 9
+- name: 🇭🇰 香港-3
   type: trojan
-  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
-  sni: green2.cdntencentmusic.com
-  skip-cert-verify: true
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.355cd.org
+  port: 23501
+  password: 309a74a1-364f-4788-b44f-fb15013f69fb
   udp: true
+  sni: cn.bing.com
+  skip-cert-verify: true
+  region_info:
+    name: 香港
+    code: HK
+  tcp_delay: 10
+- name: 🇹🇼 台湾-1
+  type: trojan
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.355cd.org
+  port: 23507
+  password: 309a74a1-364f-4788-b44f-fb15013f69fb
+  udp: true
+  sni: cn.bing.com
+  skip-cert-verify: true
   region_info:
     name: 台湾
     code: TW
-  tcp_delay: 15
-- country: 🇹🇼TW
-  name: 🇬🇧 英国-3
-  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-  region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 15
+  tcp_delay: 10
 - alterId: 0
-  name: 🇭🇰 香港-3
+  name: 🇭🇰 香港-4
   password: c80870af-749e-406c-bdbd-7aafa46de71d
   port: 31103
   server: green2.cdntencentmusic.com
@@ -380,7 +393,32 @@ proxies:
   region_info:
     name: 香港
     code: HK
-  tcp_delay: 15
+  tcp_delay: 13
+- name: 🇹🇼 台湾-2
+  server: green2.cdntencentmusic.com
+  port: 35501
+  type: trojan
+  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
+  sni: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  udp: true
+  region_info:
+    name: 台湾
+    code: TW
+  tcp_delay: 14
+- country: 🇹🇼TW
+  name: 🇬🇧 英国-3
+  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+  region_info:
+    name: 英国
+    code: GB
+  tcp_delay: 14
 - name: 🇺🇸 美国-2
   type: trojan
   server: ppg-us.kunlun05dns.com
@@ -392,45 +430,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 21
-- name: 🇺🇳 未知-5
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 34
-- name: 🇭🇰 香港-4
-  type: trojan
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.355cd.org
-  port: 23501
-  password: 309a74a1-364f-4788-b44f-fb15013f69fb
-  udp: true
-  sni: cn.bing.com
-  skip-cert-verify: true
-  region_info:
-    name: 香港
-    code: HK
-  tcp_delay: 238
-- name: 🇹🇼 台湾-2
-  type: trojan
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.355cd.org
-  port: 23507
-  password: 309a74a1-364f-4788-b44f-fb15013f69fb
-  udp: true
-  sni: cn.bing.com
-  skip-cert-verify: true
-  region_info:
-    name: 台湾
-    code: TW
-  tcp_delay: 239
+  tcp_delay: 22
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
