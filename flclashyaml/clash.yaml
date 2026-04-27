@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-04-28 01:43:07 (北京时间)
-#  节点总数   : 1 个节点
+#  更新时间   : 2026-04-28 05:17:46 (北京时间)
+#  节点总数   : 2 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -29,7 +29,22 @@ proxies:
     name: 未知
     code: UN
   tcp_delay: 5
-  clash_delay: 54
+  clash_delay: 53
+- name: 🇺🇳 未知-2
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
+  sni: red-dream-2d6c.xepis84786.workers.dev
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 3
+  clash_delay: 41
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
