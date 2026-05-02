@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-05-02 05:09:23 (北京时间)
-#  节点总数   : 4 个节点
+#  更新时间   : 2026-05-03 05:01:30 (北京时间)
+#  节点总数   : 2 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -10,49 +10,6 @@
 
 proxies:
 - name: 🇺🇳 未知-1
-  type: vless
-  server: 104.16.31.105
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: bb-67r.pages.dev
-  path: /?ed=2560
-  sni: bb-67r.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: bb-67r.pages.dev
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 7
-  clash_delay: 57
-- name: 🇺🇳 未知-2
-  type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 21
-  clash_delay: 51
-- name: 🇺🇳 未知-3
   type: vless
   server: www.speedtest.net
   port: 443
@@ -71,8 +28,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 15
-  clash_delay: 41
+  tcp_delay: 23
+  clash_delay: 51
 - name: 🇺🇸 美国-1
   type: vless
   server: www.shopify.com
@@ -92,8 +49,8 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 16
-  clash_delay: 30
+  tcp_delay: 24
+  clash_delay: 38
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
