@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-05-10 01:14:01 (北京时间)
-#  节点总数   : 2 个节点
+#  更新时间   : 2026-05-10 05:04:25 (北京时间)
+#  节点总数   : 1 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -28,23 +28,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 4
-  clash_delay: 54
-- name: 🇺🇳 未知-2
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 17
-  clash_delay: 40
+  tcp_delay: 8
+  clash_delay: 53
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
