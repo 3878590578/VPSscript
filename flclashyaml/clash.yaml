@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-05-26 05:35:30 (北京时间)
-#  节点总数   : 1 个节点
+#  更新时间   : 2026-05-27 02:37:53 (北京时间)
+#  节点总数   : 2 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -28,8 +28,29 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
-  clash_delay: 52
+  tcp_delay: 27
+  clash_delay: 45
+- name: 🇺🇸 美国-1
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 26
+  clash_delay: 38
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
