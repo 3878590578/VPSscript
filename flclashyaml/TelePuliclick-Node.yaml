@@ -1,14 +1,37 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-06-17 03:50:37 (北京时间)
-#  节点总数   : 1 个优质节点
-#  平均质量分 : 12.0/100
-#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:1
+#  更新时间   : 2026-06-17 06:23:19 (北京时间)
+#  节点总数   : 3 个优质节点
+#  平均质量分 : 13.0/100
+#  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:3
 #  测速模式   : tcp_clash_xc
 #  带宽筛选   : ≥ 20.0MB/s
 # ==================================================
 
 proxies:
+- name: 🇺🇸 美国-1 [⚡可用]
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 10
+  clash_delay: 2026
+  quality_score: 15
+  quality_tag: ⚡可用
 - name: 🇺🇳 未知-1 [⚡可用]
   type: vless
   server: africa.visa.com
@@ -28,7 +51,30 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
+  tcp_delay: 14
+  clash_delay: 2026
+  quality_score: 12
+  quality_tag: ⚡可用
+- name: 🇺🇳 未知-2 [⚡可用]
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 13
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -44,10 +90,10 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-06-17 03:50:37'
-total_nodes: 1
-average_quality: 12.0
-quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:1
+update_time: '2026-06-17 06:23:19'
+total_nodes: 3
+average_quality: 13.0
+quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:3
 speedtest_config:
   mode: tcp_clash_xc
   warp_for_tcp: true

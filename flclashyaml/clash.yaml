@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-06-17 03:50:37 (北京时间)
-#  节点总数   : 1 个节点
+#  更新时间   : 2026-06-17 06:23:19 (北京时间)
+#  节点总数   : 3 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -10,6 +10,48 @@
 
 proxies:
 - name: 🇺🇳 未知-1
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 13
+  clash_delay: 47
+- name: 🇺🇸 美国-1
+  type: vless
+  server: www.shopify.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: fuckingfangbinxing.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /
+    headers: {}
+  region_info:
+    name: 美国
+    code: US
+  tcp_delay: 10
+  clash_delay: 40
+- name: 🇺🇳 未知-2
   type: vless
   server: africa.visa.com
   port: 8880
@@ -28,8 +70,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 7
-  clash_delay: 41
+  tcp_delay: 14
+  clash_delay: 24
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
