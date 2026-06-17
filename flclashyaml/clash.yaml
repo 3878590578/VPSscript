@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-06-17 06:23:19 (北京时间)
+#  更新时间   : 2026-06-18 02:35:43 (北京时间)
 #  节点总数   : 3 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
@@ -9,27 +9,6 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 13
-  clash_delay: 47
 - name: 🇺🇸 美国-1
   type: vless
   server: www.shopify.com
@@ -49,29 +28,51 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 10
-  clash_delay: 40
-- name: 🇺🇳 未知-2
+  tcp_delay: 17
+  clash_delay: 49
+- name: 🇺🇳 未知-1
   type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  server: www.speedtest.net
+  port: 443
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
   encryption: none
   flow: ''
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   host: ''
   path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
   ws-opts:
     path: /
     headers: {}
   region_info:
     name: 未知
     code: UN
+  tcp_delay: 15
+  clash_delay: 41
+- name: 🇦🇩 安道尔-1
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
+  ws-opts:
+    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+    headers:
+      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  region_info:
+    name: 安道尔
+    code: AD
   tcp_delay: 14
-  clash_delay: 24
+  clash_delay: 25
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
