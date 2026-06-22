@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-06-23 03:48:36 (北京时间)
+#  更新时间   : 2026-06-23 06:16:45 (北京时间)
 #  节点总数   : 13 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
@@ -29,39 +29,8 @@ proxies:
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 28
-- name: 🇺🇳 未知-1
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
-  sni: red-dream-2d6c.xepis84786.workers.dev
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 30
+  tcp_delay: 6
 - name: 🇦🇩 安道尔-2
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 062613de-b8ec-4b14-eec8-f2a8ebd7fdff
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: xhttp
-  host: joKer.mEmBerGolaBi.IR
-  path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
-  sni: joker.membergolabi.IR
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 29
-- name: 🇦🇩 安道尔-3
   type: vless
   server: www.speedtest.net
   port: 2096
@@ -81,8 +50,8 @@ proxies:
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 30
-- name: 🇺🇳 未知-2
+  tcp_delay: 6
+- name: 🇺🇳 未知-1
   type: vless
   server: www.speedtest.net
   port: 443
@@ -101,7 +70,24 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 30
+  tcp_delay: 5
+- name: 🇦🇩 安道尔-3
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 062613de-b8ec-4b14-eec8-f2a8ebd7fdff
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  host: joKer.mEmBerGolaBi.IR
+  path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
+  sni: joker.membergolabi.IR
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 6
 - name: 🇰🇮 基里巴斯-1
   type: vless
   server: www.speedtest.net
@@ -122,7 +108,21 @@ proxies:
   region_info:
     name: 基里巴斯
     code: KI
-  tcp_delay: 30
+  tcp_delay: 6
+- name: 🇺🇳 未知-2
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: cf142ac0-4bae-4c4b-9882-21fc0550a661
+  sni: red-dream-2d6c.xepis84786.workers.dev
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 8
 - name: 🇺🇸 美国-1
   type: vless
   server: www.shopify.com
@@ -142,7 +142,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 30
+  tcp_delay: 8
 - name: 🇺🇳 未知-3
   type: vless
   server: africa.visa.com
@@ -162,21 +162,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 31
-- name: 🇺🇳 未知-4
-  type: trojan
-  server: store.ubi.com
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
-  tls: true
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 37
+  tcp_delay: 11
 - name: 🇹🇼 台湾-1
   server: green2.cdntencentmusic.com
   port: 35501
@@ -188,7 +174,7 @@ proxies:
   region_info:
     name: 台湾
     code: TW
-  tcp_delay: 44
+  tcp_delay: 15
 - country: 🇹🇼TW
   name: 🇬🇧 英国-1
   password: 9f6256ae-52e7-4954-9a17-445b106bdca7
@@ -201,7 +187,7 @@ proxies:
   region_info:
     name: 英国
     code: GB
-  tcp_delay: 44
+  tcp_delay: 15
 - alterId: 0
   name: 🇭🇰 香港-1
   password: c80870af-749e-406c-bdbd-7aafa46de71d
@@ -216,7 +202,21 @@ proxies:
   region_info:
     name: 香港
     code: HK
-  tcp_delay: 44
+  tcp_delay: 15
+- name: 🇺🇳 未知-4
+  type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
+  skip-cert-verify: false
+  udp: true
+  alpn: []
+  tls: true
+  region_info:
+    name: 未知
+    code: UN
+  tcp_delay: 25
 - name: 🇺🇸 美国-2
   type: trojan
   server: ppg-us.kunlun05dns.com
@@ -228,7 +228,7 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 49
+  tcp_delay: 26
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
