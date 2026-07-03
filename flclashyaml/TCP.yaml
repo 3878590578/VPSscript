@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-07-04 01:49:13 (北京时间)
-#  节点总数   : 13 个节点
+#  更新时间   : 2026-07-04 05:33:25 (北京时间)
+#  节点总数   : 9 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -9,26 +9,6 @@
 # ==================================================
 
 proxies:
-- name: 🇺🇳 未知-1
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 8
 - name: 🇦🇩 安道尔-1
   type: vless
   server: www.speedtest.net
@@ -45,29 +25,8 @@ proxies:
   region_info:
     name: 安道尔
     code: AD
-  tcp_delay: 8
-- name: 🇦🇩 安道尔-2
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
-  encryption: none
-  flow: ''
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
-  ws-opts:
-    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
-    headers:
-      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
-  region_info:
-    name: 安道尔
-    code: AD
   tcp_delay: 6
-- name: 🇺🇳 未知-2
+- name: 🇺🇳 未知-1
   type: trojan
   server: www.speedtest.net
   port: 443
@@ -80,28 +39,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 8
-- name: 🇦🇩 安道尔-3
-  type: vless
-  server: www.speedtest.net
-  port: 2082
-  uuid: 21a4f9b4-8b7c-440c-8c9a-8e61d001ad80
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-  sni: ''
-  ws-opts:
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  region_info:
-    name: 安道尔
-    code: AD
-  tcp_delay: 8
+  tcp_delay: 6
 - name: 🇰🇮 基里巴斯-1
   type: vless
   server: www.speedtest.net
@@ -122,20 +60,68 @@ proxies:
   region_info:
     name: 基里巴斯
     code: KI
-  tcp_delay: 6
-- name: 🇺🇳 未知-3
-  type: trojan
-  server: store.ubi.com
+  tcp_delay: 5
+- name: 🇺🇳 未知-2
+  type: vless
+  server: www.speedtest.net
   port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  sni: _acme-challenge.2go.cloudns.be
-  skip-cert-verify: false
-  udp: true
-  alpn: []
+  uuid: 98dc8a17-0e58-4270-8407-95869d24bb5c
+  encryption: none
+  flow: ''
   tls: true
+  skip-cert-verify: false
+  network: ws
+  host: ''
+  path: /
+  sni: Parsa-0ShPE1.pARsa-E06.wOrkERs.Dev
+  ws-opts:
+    path: /
+    headers: {}
   region_info:
     name: 未知
     code: UN
+  tcp_delay: 7
+- name: 🇦🇩 安道尔-2
+  type: vless
+  server: www.speedtest.net
+  port: 2082
+  uuid: 21a4f9b4-8b7c-440c-8c9a-8e61d001ad80
+  encryption: none
+  flow: ''
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  sni: ''
+  ws-opts:
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  region_info:
+    name: 安道尔
+    code: AD
+  tcp_delay: 6
+- name: 🇦🇩 安道尔-3
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 0c90175d-41df-4a62-c663-67b8652371c4
+  encryption: none
+  flow: ''
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+  sni: Locke.check-speedtest-internet-dns-ping-ip.ir
+  ws-opts:
+    path: /@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN
+    headers:
+      Host: Locke.check-speedtest-internet-dns-ping-ip.ir
+  region_info:
+    name: 安道尔
+    code: AD
   tcp_delay: 7
 - name: 🇺🇸 美国-1
   type: vless
@@ -156,20 +142,8 @@ proxies:
   region_info:
     name: 美国
     code: US
-  tcp_delay: 7
-- name: 🇺🇸 美国-2
-  type: trojan
-  server: ppg-us.kunlun05dns.com
-  port: 10819
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  udp: true
-  sni: openssl.nodesni.com
-  skip-cert-verify: true
-  region_info:
-    name: 美国
-    code: US
-  tcp_delay: 8
-- name: 🇺🇳 未知-4
+  tcp_delay: 5
+- name: 🇺🇳 未知-3
   type: vless
   server: africa.visa.com
   port: 8880
@@ -188,47 +162,21 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 11
-- country: 🇹🇼TW
-  name: 🇬🇧 英国-1
-  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+  tcp_delay: 8
+- name: 🇺🇳 未知-4
   type: trojan
+  server: store.ubi.com
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  sni: _acme-challenge.2go.cloudns.be
+  skip-cert-verify: false
   udp: true
+  alpn: []
+  tls: true
   region_info:
-    name: 英国
-    code: GB
-  tcp_delay: 16
-- name: 🇹🇼 台湾-1
-  server: green2.cdntencentmusic.com
-  port: 35501
-  type: trojan
-  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
-  sni: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  udp: true
-  region_info:
-    name: 台湾
-    code: TW
-  tcp_delay: 16
-- alterId: 0
-  name: 🇭🇰 香港-1
-  password: c80870af-749e-406c-bdbd-7aafa46de71d
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-  client-fingerprint: chrome
-  delay: 1709
-  region_info:
-    name: 香港
-    code: HK
-  tcp_delay: 15
+    name: 未知
+    code: UN
+  tcp_delay: 97
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
