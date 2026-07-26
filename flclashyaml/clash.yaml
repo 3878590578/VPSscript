@@ -1,7 +1,7 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-07-26 05:09:57 (北京时间)
-#  节点总数   : 2 个节点
+#  更新时间   : 2026-07-27 01:17:21 (北京时间)
+#  节点总数   : 1 个节点
 #  平均质量分 : 0.0/100
 #  质量分布   : 无
 #  测速模式   : tcp_clash_xc
@@ -10,27 +10,6 @@
 
 proxies:
 - name: 🇺🇳 未知-1
-  type: vless
-  server: africa.visa.com
-  port: 8880
-  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
-  encryption: none
-  flow: ''
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  host: ''
-  path: /
-  sni: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
-  ws-opts:
-    path: /
-    headers: {}
-  region_info:
-    name: 未知
-    code: UN
-  tcp_delay: 9
-  clash_delay: 27
-- name: 🇺🇳 未知-2
   type: vless
   server: www.speedtest.net
   port: 443
@@ -49,8 +28,8 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 5
-  clash_delay: 21
+  tcp_delay: 4
+  clash_delay: 31
 last_message_ids:
   '@fqDINYUE': 4877
   '@freeyule': 1954089
