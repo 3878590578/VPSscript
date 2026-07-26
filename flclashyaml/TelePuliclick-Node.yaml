@@ -1,6 +1,6 @@
 # ==================================================
 #  TG 免费节点 · 自动测速精选订阅 三合一测速版
-#  更新时间   : 2026-07-27 01:17:21 (北京时间)
+#  更新时间   : 2026-07-27 05:12:30 (北京时间)
 #  节点总数   : 1 个优质节点
 #  平均质量分 : 12.0/100
 #  质量分布   : 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:1
@@ -28,7 +28,7 @@ proxies:
   region_info:
     name: 未知
     code: UN
-  tcp_delay: 4
+  tcp_delay: 8
   clash_delay: 2026
   quality_score: 12
   quality_tag: ⚡可用
@@ -44,7 +44,7 @@ last_message_ids:
   '@wxdy666': 6481
   '@dingyue_Center': 3932
   '@tempssrlink': 116
-update_time: '2026-07-27 01:17:21'
+update_time: '2026-07-27 05:12:30'
 total_nodes: 1
 average_quality: 12.0
 quality_stats: 🔥极品:0, ⭐优质:0, ✅良好:0, ⚡可用:1
